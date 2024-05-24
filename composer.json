@@ -1,0 +1,20 @@
+{
+    "name": "mm/lab",
+    "description": "Twstowy",
+    "type": "project",
+    "require": {
+        "psr/log": "3.0.0",
+        "symfony/console": "^5.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mm\\Lab\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "NF"
+        }
+    ]
+}
